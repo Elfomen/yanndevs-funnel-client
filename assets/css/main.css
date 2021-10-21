@@ -2011,3 +2011,29 @@ input, select, textarea {
 				}
 
 	}
+
+	/* My own styles */
+
+	.yanndevs-big_title{
+		font-size: 26px;
+		text-transform: uppercase;
+	}
+
+	table{
+		width: 100%;
+	}
+
+	th{
+		height: 60px;
+		font-weight: 800;
+		font-size: 22px;
+		background-color: #0077b3;
+		color: #f4f4f4;
+		padding: 3px;
+		text-align: left;
+	}
+
+	td{
+		border-bottom: 1px solid rgba(128, 128, 128, 0.39);
+		padding: 24px;
+	}
