@@ -1,0 +1,89 @@
+body{
+    background-color: #00b33c;
+}
+
+header{
+    background-color: #003311;
+    padding: 15px;
+}
+
+header > h1{
+    color: #f4f4f4;
+    text-align: center;
+}
+.main_body{
+    margin: 20px;
+}
+
+.image > img{
+    width: 90%;
+    height: 90vh;
+}
+
+h1 , h2 , label , input , span , h3{
+    font-family: 'Gluten', cursive;
+}
+
+.text > h1{
+    font-size: 50px;
+    text-align: center;
+    color: #006e25;
+}
+.email{
+    background-color: rgb(246, 246, 246);
+    padding: 15px;
+    height: 65vh;
+    border-radius: 8px;
+}
+#email{
+    padding: 15px;
+    font-size: 22px;
+}
+
+#get_book{
+    width: 100%;
+    margin-top: 20px;
+    padding: 15px;
+    font-family: 'Gluten', cursive;
+    font-size: 28px;
+    display: flex;
+    align-items: center;
+}
+.loading{
+    display: none;
+}
+.email > a{
+    text-decoration: none;
+}
+.email > a > button > i{
+    margin-left: 5px;
+    display: none;
+}
+
+@media(max-width : 970px){
+    .text > h1{
+        font-size: 25px;
+    }
+
+    .text > h3{
+        font-size: 22px;
+    }
+}
+@media(max-width : 760px){
+    .row > div{
+        width: 100%;
+    }
+    .email{
+        height: auto;
+    }
+    .image{
+        display: flex;
+        justify-content: center;
+    }
+}
+
+@media(max-width:510px){
+    #get_book , #email{
+        font-size: 15px;
+    }
+}

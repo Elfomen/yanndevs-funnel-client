@@ -1,0 +1,38 @@
+.thaks{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgb(52, 110, 52);
+    padding: 20px;
+}
+
+h1 , h2 , label , input , span , h3 , button{
+    font-family: 'Gluten', cursive;
+}
+
+.thaks > h1 , .thaks > span{
+    color: #f4f4f4;
+}
+
+.thaks > img{
+    width: 300px;
+    height: 400px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.thaks > a > button{
+    padding: 20px;
+    width: 300px;
+    background-color: rgb(0, 80, 0);
+    color: #f4f4f4;
+    font-size: 20px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    transition: transform 0.2s ease-in;
+    border-radius: 8px;
+}
+
+.thaks > a > button:hover{
+    transform: scale(1.1);
+}
