@@ -18,6 +18,8 @@ function sendEmail(receiver , position) {
     })
   }
 
+  
+
   document.getElementById('send-mail').addEventListener("click" , function(){
     // sendEmail(defaulMails[0] , 0)
     $("spinner").addClass("show")

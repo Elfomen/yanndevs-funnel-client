@@ -30,6 +30,18 @@ function unsetButton(){
     document.getElementById("spin").style.display = "none"
 }
 
+function sendWelcomeEmail(receiver){
+    var tempParams = {
+        to_email : receiver , 
+        to_name : receiver.split("@")[0]
+    }
+
+    emailjs.send("yanndevs" , "template_q7qggfw" , tempParams).then(function(res){
+        // console.log(res)
+        window.location.href = "thanks/index.html";
+    })
+}
+
  function addNewMail(mail){
       fetch("https://yanndevs-funnel-app.herokuapp.com/mail/new" , {
         method: 'POST',
@@ -43,7 +55,8 @@ function unsetButton(){
     }).then(result => {
         console.log(result)
         unsetButton()
-        window.location.href = "thanks/index.html";
+        sendWelcomeEmail(mail)//After Sending the mail to the database we send welcome email
+        
     }).catch(error => {
         console.log(error)
     })

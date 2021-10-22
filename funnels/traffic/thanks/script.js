@@ -9,6 +9,6 @@ function sendEmail(receiver , position) {
     })
   }
 
-  $("#getCopy").click(function(){
-    
-  })
+  
+
+  
