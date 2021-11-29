@@ -14,7 +14,7 @@ h1 , h2 , label , input , span , h3 , button{
     color: #f4f4f4;
 }
 
-.thaks > img{
+.thaks > a > img{
     width: 300px;
     height: 400px;
     margin-top: 20px;

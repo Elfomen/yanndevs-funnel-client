@@ -11,7 +11,7 @@ document.getElementById("get_book").addEventListener("click" , function(e){
         
     }else{
         e.preventDefault()
-        localStorage.setItem("yanndevs-funnel-affiliatesecrets" , true)
+        //localStorage.setItem("yanndevs-funnel-affiliatesecrets" , true)
         var mail = document.getElementById("email").value
         setButton()
         addNewMail( mail)
@@ -55,8 +55,9 @@ function sendWelcomeEmail(receiver){
     }).then(result => {
         console.log(result)
         unsetButton()
-        sendWelcomeEmail(mail)//After Sending the mail to the database we send welcome email
-        
+        //sendWelcomeEmail(mail)//After Sending the mail to the database we send welcome email
+        window.location.href = "thanks/index.html";
+
     }).catch(error => {
         console.log(error)
     })
