@@ -1,8 +1,8 @@
-window.addEventListener("load" , function(){
-    if(this.localStorage.getItem("yanndevs-funnel-affiliatesecrets")){
-        window.location.href = "https://trafficsecrets.com/traffic-secrets?affiliate_id=3387775&cf_affiliate_id=3387775"
-    }
-})
+//window.addEventListener("load" , function(){
+//    if(this.localStorage.getItem("yanndevs-funnel-affiliatesecrets")){
+//        window.location.href = "https://trafficsecrets.com/traffic-secrets?affiliate_id=3387775&cf_affiliate_id=3387775"
+//    }
+//})
 
 document.getElementById("get_book").addEventListener("click" , function(e){
     if(document.getElementById("email").value===""){
